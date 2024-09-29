@@ -2,6 +2,17 @@
 
 This guide walks you through the steps to install NVIDIA's CUDA toolkit on Ubuntu 22.04. CUDA allows you to harness the power of NVIDIA GPUs for computing-intensive tasks like machine learning, simulations, and more.
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+  - [1. Update Your System](#1-update-your-system)
+  - [2. Install the NVIDIA Driver](#2-install-the-nvidia-driver)
+  - [Verify NVIDIA Driver Installation](#verify-nvidia-driver-installation)
+  - [3. Install CUDA Toolkit](#3-install-cuda-toolkit)
+  - [4. Set Up the Environment](#4-set-up-the-environment)
+  - [5. Verify Installation](#5-verify-installation)
+- [Further Information](#further-information)
+
 ## Prerequisites
 - A machine running Ubuntu 22.04
 - A CUDA-compatible NVIDIA GPU
@@ -25,6 +36,7 @@ Reboot your machine:
 ```bash
 sudo reboot
 ```
+
 ### Verify NVIDIA Driver Installation
 To verify that the NVIDIA driver is installed correctly, run the following command:
 ```bash
@@ -34,7 +46,6 @@ nvidia-smi
 You should see an output similar to the following, which indicates that the driver is installed and the GPU is recognized:
 
 ![NVIDIA-SMI Output](/rsrc/image.png)
-
 
 ### 3. Install CUDA Toolkit
 1. Download and install the CUDA repository package:
@@ -70,3 +81,6 @@ nvcc -V
 
 ## Further Information
 For detailed instructions, see the official [NVIDIA CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/).
+```
+
+I have added the table of contents to the README file. You can now update the README in your repository with these changes. Would you like to proceed with creating a pull request or directly committing these changes?
