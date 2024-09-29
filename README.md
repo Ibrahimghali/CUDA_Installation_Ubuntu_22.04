@@ -82,5 +82,3 @@ nvcc -V
 ## Further Information
 For detailed instructions, see the official [NVIDIA CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/).
 ```
-
-I have added the table of contents to the README file. You can now update the README in your repository with these changes. Would you like to proceed with creating a pull request or directly committing these changes?
