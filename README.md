@@ -81,4 +81,3 @@ nvcc -V
 
 ## Further Information
 For detailed instructions, see the official [NVIDIA CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/).
-```
